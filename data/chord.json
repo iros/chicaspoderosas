@@ -1,247 +1,247 @@
 {
     "cantons": [
         {
-            "name": "San Jos\\u00e9", "province":"San Jos\\u00e9"
+            "name": "San Jos\\u00e9", "province":"San Jos\\u00e9", "category": "GAM"
         },
         {
-            "name": "Escaz\\u00fa", "province":"San Jos\\u00e9"
+            "name": "Escaz\\u00fa", "province":"San Jos\\u00e9", "category": "GAM"
         },
         {
-            "name": "Desamparados", "province":"San Jos\\u00e9"
+            "name": "Desamparados", "province":"San Jos\\u00e9", "category": "GAM"
         },
         {
-            "name": "Puriscal", "province":"San Jos\\u00e9"
+            "name": "Puriscal", "province":"San Jos\\u00e9", "category": "noGAM"
         },
         {
-            "name": "Tarraz\\u00fa", "province":"San Jos\\u00e9"
+            "name": "Tarraz\\u00fa", "province":"San Jos\\u00e9", "category": "noGAM"
         },
         {
-            "name": "Aserr\\u00ed", "province":"San Jos\\u00e9"
+            "name": "Aserr\\u00ed", "province":"San Jos\\u00e9", "category": "GAM"
         },
         {
-            "name": "Mora", "province":"San Jos\\u00e9"
+            "name": "Mora", "province":"San Jos\\u00e9", "category": "GAM"
         },
         {
-            "name": "Goicoechea", "province":"San Jos\\u00e9"
+            "name": "Goicoechea", "province":"San Jos\\u00e9", "category": "GAM"
         },
         {
-            "name": "Santa Ana", "province":"San Jos\\u00e9"
+            "name": "Santa Ana", "province":"San Jos\\u00e9", "category": "GAM"
         },
         {
-            "name": "Alajuelita", "province":"San Jos\\u00e9"
+            "name": "Alajuelita", "province":"San Jos\\u00e9", "category": "GAM"
         },
         {
-            "name": "V\\u00e1zquez de Coronado", "province":"San Jos\\u00e9"
+            "name": "V\\u00e1zquez de Coronado", "province":"San Jos\\u00e9", "category": "GAM"
         },
         {
-            "name": "Acosta", "province":"San Jos\\u00e9"
+            "name": "Acosta", "province":"San Jos\\u00e9", "category": "GAM"
         },
         {
-            "name": "Tib\\u00e1s", "province":"San Jos\\u00e9"
+            "name": "Tib\\u00e1s", "province":"San Jos\\u00e9", "category": "GAM"
         },
         {
-            "name": "Moravia", "province":"San Jos\\u00e9"
+            "name": "Moravia", "province":"San Jos\\u00e9", "category": "GAM"
         },
         {
-            "name": "Montes de Oca", "province":"San Jos\\u00e9"
+            "name": "Montes de Oca", "province":"San Jos\\u00e9", "category": "GAM"
         },
         {
-            "name": "Turrubares", "province":"San Jos\\u00e9"
+            "name": "Turrubares", "province":"San Jos\\u00e9", "category": "noGAM"
         },
         {
-            "name": "Dota", "province":"San Jos\\u00e9"
+            "name": "Dota", "province":"San Jos\\u00e9", "category": "noGAM"
         },
         {
-            "name": "Curridabat", "province":"San Jos\\u00e9"
+            "name": "Curridabat", "province":"San Jos\\u00e9", "category": "GAM"
         },
         {
-            "name": "P\\u00e9rez Zeled\\u00f3n", "province":"San Jos\\u00e9"
+            "name": "P\\u00e9rez Zeled\\u00f3n", "province":"San Jos\\u00e9", "category": "noGAM"
         },
         {
-            "name": "Le\\u00f3n Cort\\u00e9s Castro", "province":"San Jos\\u00e9"
+            "name": "Le\\u00f3n Cort\\u00e9s Castro", "province":"San Jos\\u00e9", "category": "noGAM"
         },
         {
-            "name": "Alajuela", "province": "Alajuela"
+            "name": "Alajuela", "province": "Alajuela", "category": "GAM"
         },
         {
-            "name": "San Ram\\u00f3n", "province": "Alajuela"
+            "name": "San Ram\\u00f3n", "province": "Alajuela", "category": "GAM"
         },
         {
-            "name": "Grecia", "province": "Alajuela"
+            "name": "Grecia", "province": "Alajuela", "category": "GAM"
         },
         {
-            "name": "San Mateo", "province": "Alajuela"
+            "name": "San Mateo", "province": "Alajuela", "category": "noGAM"
         },
         {
-            "name": "Atenas", "province": "Alajuela"
+            "name": "Atenas", "province": "Alajuela", "category": "GAM"
         },
         {
-            "name": "Naranjo", "province": "Alajuela"
+            "name": "Naranjo", "province": "Alajuela", "category": "noGAM"
         },
         {
-            "name": "Palmares", "province": "Alajuela"
+            "name": "Palmares", "province": "Alajuela", "category": "GAM"
         },
         {
-            "name": "Po\\u00e1s", "province": "Alajuela"
+            "name": "Po\\u00e1s", "province": "Alajuela", "category": "GAM"
         },
         {
-            "name": "Orotina", "province": "Alajuela"
+            "name": "Orotina", "province": "Alajuela", "category": "noGAM"
         },
         {
-            "name": "San Carlos", "province": "Alajuela"
+            "name": "San Carlos", "province": "Alajuela", "category": "noGAM"
         },
         {
-            "name": "Zarcero", "province": "Alajuela"
+            "name": "Zarcero", "province": "Alajuela", "category": "noGAM"
         },
         {
-            "name": "Valverde Vega", "province": "Alajuela"
+            "name": "Valverde Vega", "province": "Alajuela", "category": "noGAM"
         },
         {
-            "name": "Upala", "province": "Alajuela"
+            "name": "Upala", "province": "Alajuela", "category": "noGAM"
         },
         {
-            "name": "Los Chiles", "province": "Alajuela"
+            "name": "Los Chiles", "province": "Alajuela", "category": "noGAM"
         },
         {
-            "name": "Guatuso", "province": "Alajuela"
+            "name": "Guatuso", "province": "Alajuela", "category": "noGAM"
         },
         {
-            "name": "Cartago", "province":  "Cartago"
+            "name": "Cartago", "province":  "Cartago", "category": "GAM"
         },
         {
-            "name": "Para\\u00edso", "province":  "Cartago"
+            "name": "Para\\u00edso", "province":  "Cartago", "category": "GAM"
         },
         {
-            "name": "La Uni\\u00f3n", "province":  "Cartago"
+            "name": "La Uni\\u00f3n", "province":  "Cartago", "category": "GAM"
         },
         {
-            "name": "Jim\\u00e9nez", "province":  "Cartago"
+            "name": "Jim\\u00e9nez", "province":  "Cartago", "category": "noGAM"
         },
         {
-            "name": "Turrialba", "province":  "Cartago"
+            "name": "Turrialba", "province":  "Cartago", "category": "noGAM"
         },
         {
-            "name": "Alvarado", "province":  "Cartago"
+            "name": "Alvarado", "province":  "Cartago", "category": "noGAM"
         },
         {
-            "name": "Oreamuno", "province":  "Cartago"
+            "name": "Oreamuno", "province":  "Cartago", "category": "GAM"
         },
         {
-            "name": "El Guarco", "province":  "Cartago"
+            "name": "El Guarco", "province":  "Cartago", "category": "GAM"
         },
         {
-            "name": "Heredia", "province": "Heredia"
+            "name": "Heredia", "province": "Heredia", "category": "GAM"
         },
         {
-            "name": "Barva", "province": "Heredia"
+            "name": "Barva", "province": "Heredia", "category": "GAM"
         },
         {
-            "name": "Santo Domingo", "province": "Heredia"
+            "name": "Santo Domingo", "province": "Heredia", "category": "GAM"
         },
         {
-            "name": "Santa B\\u00e1rbara", "province": "Heredia"
+            "name": "Santa B\\u00e1rbara", "province": "Heredia", "category": "GAM"
         },
         {
-            "name": "San Rafael", "province": "Heredia"
+            "name": "San Rafael", "province": "Heredia", "category": "GAM"
         },
         {
-            "name": "San Isidro", "province": "Heredia"
+            "name": "San Isidro", "province": "Heredia", "category": "noGAM"
         },
         {
-            "name": "Bel\\u00e9n", "province": "Heredia"
+            "name": "Bel\\u00e9n", "province": "Heredia", "category": "GAM"
         },
         {
-            "name": "Flores", "province": "Heredia"
+            "name": "Flores", "province": "Heredia", "category": "GAM"
         },
         {
-            "name": "San Pablo", "province": "Heredia"
+            "name": "San Pablo", "province": "Heredia", "category": "GAM"
         },
         {
-            "name": "Sarapiqu\\u00ed", "province": "Heredia"
+            "name": "Sarapiqu\\u00ed", "province": "Heredia", "category": "noGAM"
         },
         {
-            "name": "Liberia", "province": "Guanacaste"
+            "name": "Liberia", "province": "Guanacaste", "category": "noGAM"
         },
         {
-            "name": "Nicoya", "province": "Guanacaste"
+            "name": "Nicoya", "province": "Guanacaste", "category": "noGAM"
         },
         {
-            "name": "Santa Cruz", "province": "Guanacaste"
+            "name": "Santa Cruz", "province": "Guanacaste", "category": "noGAM"
         },
         {
-            "name": "Bagaces", "province": "Guanacaste"
+            "name": "Bagaces", "province": "Guanacaste", "category": "noGAM"
         },
         {
-            "name": "Carrillo", "province": "Guanacaste"
+            "name": "Carrillo", "province": "Guanacaste", "category": "noGAM"
         },
         {
-            "name": "Ca\\u00f1as", "province": "Guanacaste"
+            "name": "Ca\\u00f1as", "province": "Guanacaste", "category": "noGAM"
         },
         {
-            "name": "Abangares", "province": "Guanacaste"
+            "name": "Abangares", "province": "Guanacaste", "category": "noGAM"
         },
         {
-            "name": "Tilar\\u00e1n", "province": "Guanacaste"
+            "name": "Tilar\\u00e1n", "province": "Guanacaste", "category": "noGAM"
         },
         {
-            "name": "Nandayure", "province": "Guanacaste"
+            "name": "Nandayure", "province": "Guanacaste", "category": "noGAM"
         },
         {
-            "name": "La Cruz", "province": "Guanacaste"
+            "name": "La Cruz", "province": "Guanacaste", "category": "noGAM"
         },
         {
-            "name": "Hojancha", "province": "Guanacaste"
+            "name": "Hojancha", "province": "Guanacaste", "category": "noGAM"
         },
         {
-            "name": "Puntarenas", "province": "Puntarenas"
+            "name": "Puntarenas", "province": "Puntarenas", "category": "noGAM"
         },
         {
-            "name": "Esparza", "province": "Puntarenas"
+            "name": "Esparza", "province": "Puntarenas", "category": "noGAM"
         },
         {
-            "name": "Buenos Aires", "province": "Puntarenas"
+            "name": "Buenos Aires", "province": "Puntarenas", "category": "noGAM"
         },
         {
-            "name": "Montes de Oro", "province": "Puntarenas"
+            "name": "Montes de Oro", "province": "Puntarenas", "category": "noGAM"
         },
         {
-            "name": "Osa", "province": "Puntarenas"
+            "name": "Osa", "province": "Puntarenas", "category": "noGAM"
         },
         {
-            "name": "Aguirre", "province": "Puntarenas"
+            "name": "Aguirre", "province": "Puntarenas", "category": "noGAM"
         },
         {
-            "name": "Golfito", "province": "Puntarenas"
+            "name": "Golfito", "province": "Puntarenas", "category": "noGAM"
         },
         {
-            "name": "Coto Brus", "province": "Puntarenas"
+            "name": "Coto Brus", "province": "Puntarenas", "category": "noGAM"
         },
         {
-            "name": "Parrita", "province": "Puntarenas"
+            "name": "Parrita", "province": "Puntarenas", "category": "noGAM"
         },
         {
-            "name": "Corredores", "province": "Puntarenas"
+            "name": "Corredores", "province": "Puntarenas", "category": "noGAM"
         },
         {
-            "name": "Garabito", "province": "Puntarenas"
+            "name": "Garabito", "province": "Puntarenas", "category": "noGAM"
         },
         {
-            "name": "Lim\\u00f3n", "province": "Lim\\u00f3n"
+            "name": "Lim\\u00f3n", "province": "Lim\\u00f3n", "category": "noGAM"
         },
         {
-            "name": "Pococ\\u00ed", "province": "Lim\\u00f3n"
+            "name": "Pococ\\u00ed", "province": "Lim\\u00f3n", "category": "noGAM"
         },
         {
-            "name": "Siquirres", "province": "Lim\\u00f3n"
+            "name": "Siquirres", "province": "Lim\\u00f3n", "category": "noGAM"
         },
         {
-            "name": "Talamanca", "province": "Lim\\u00f3n"
+            "name": "Talamanca", "province": "Lim\\u00f3n", "category": "noGAM"
         },
         {
-            "name": "Matina", "province": "Lim\\u00f3n"
+            "name": "Matina", "province": "Lim\\u00f3n", "category": "noGAM"
         },
         {
-            "name": "Gu\\u00e1cimo", "province": "Lim\\u00f3n"
+            "name": "Gu\\u00e1cimo", "province": "Lim\\u00f3n", "category": "noGAM"
         }
     ],
     "matrix": [
