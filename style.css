@@ -1,1 +1,22 @@
+#chord {
+  float:left;
+  display:inline-block;
+}
+#metadata {
+  float:right;
+  display: inline-block;
+}
+#circle circle {
+  fill: none;
+  pointer-events: all;
+}
 
+.group path {
+  fill-opacity: .5;
+}
+
+path.chord {}
+
+#circle:hover path.fade {
+  display: none;
+}
