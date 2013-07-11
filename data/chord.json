@@ -1,247 +1,247 @@
 {
     "cantons": [
         {
-            "name": "San Jos\\u00e9"
+            "name": "San Jos\\u00e9", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Escaz\\u00fa"
+            "name": "Escaz\\u00fa", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Desamparados"
+            "name": "Desamparados", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Puriscal"
+            "name": "Puriscal", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Tarraz\\u00fa"
+            "name": "Tarraz\\u00fa", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Aserr\\u00ed"
+            "name": "Aserr\\u00ed", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Mora"
+            "name": "Mora", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Goicoechea"
+            "name": "Goicoechea", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Santa Ana"
+            "name": "Santa Ana", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Alajuelita"
+            "name": "Alajuelita", "province":"San Jos\\u00e9"
         },
         {
-            "name": "V\\u00e1zquez de Coronado"
+            "name": "V\\u00e1zquez de Coronado", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Acosta"
+            "name": "Acosta", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Tib\\u00e1s"
+            "name": "Tib\\u00e1s", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Moravia"
+            "name": "Moravia", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Montes de Oca"
+            "name": "Montes de Oca", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Turrubares"
+            "name": "Turrubares", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Dota"
+            "name": "Dota", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Curridabat"
+            "name": "Curridabat", "province":"San Jos\\u00e9"
         },
         {
-            "name": "P\\u00e9rez Zeled\\u00f3n"
+            "name": "P\\u00e9rez Zeled\\u00f3n", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Le\\u00f3n Cort\\u00e9s Castro"
+            "name": "Le\\u00f3n Cort\\u00e9s Castro", "province":"San Jos\\u00e9"
         },
         {
-            "name": "Alajuela"
+            "name": "Alajuela", "province": "Alajuela"
         },
         {
-            "name": "San Ram\\u00f3n"
+            "name": "San Ram\\u00f3n", "province": "Alajuela"
         },
         {
-            "name": "Grecia"
+            "name": "Grecia", "province": "Alajuela"
         },
         {
-            "name": "San Mateo"
+            "name": "San Mateo", "province": "Alajuela"
         },
         {
-            "name": "Atenas"
+            "name": "Atenas", "province": "Alajuela"
         },
         {
-            "name": "Naranjo"
+            "name": "Naranjo", "province": "Alajuela"
         },
         {
-            "name": "Palmares"
+            "name": "Palmares", "province": "Alajuela"
         },
         {
-            "name": "Po\\u00e1s"
+            "name": "Po\\u00e1s", "province": "Alajuela"
         },
         {
-            "name": "Orotina"
+            "name": "Orotina", "province": "Alajuela"
         },
         {
-            "name": "San Carlos"
+            "name": "San Carlos", "province": "Alajuela"
         },
         {
-            "name": "Zarcero"
+            "name": "Zarcero", "province": "Alajuela"
         },
         {
-            "name": "Valverde Vega"
+            "name": "Valverde Vega", "province": "Alajuela"
         },
         {
-            "name": "Upala"
+            "name": "Upala", "province": "Alajuela"
         },
         {
-            "name": "Los Chiles"
+            "name": "Los Chiles", "province": "Alajuela"
         },
         {
-            "name": "Guatuso"
+            "name": "Guatuso", "province": "Alajuela"
         },
         {
-            "name": "Cartago"
+            "name": "Cartago", "province":  "Cartago"
         },
         {
-            "name": "Para\\u00edso"
+            "name": "Para\\u00edso", "province":  "Cartago"
         },
         {
-            "name": "La Uni\\u00f3n"
+            "name": "La Uni\\u00f3n", "province":  "Cartago"
         },
         {
-            "name": "Jim\\u00e9nez"
+            "name": "Jim\\u00e9nez", "province":  "Cartago"
         },
         {
-            "name": "Turrialba"
+            "name": "Turrialba", "province":  "Cartago"
         },
         {
-            "name": "Alvarado"
+            "name": "Alvarado", "province":  "Cartago"
         },
         {
-            "name": "Oreamuno"
+            "name": "Oreamuno", "province":  "Cartago"
         },
         {
-            "name": "El Guarco"
+            "name": "El Guarco", "province":  "Cartago"
         },
         {
-            "name": "Heredia"
+            "name": "Heredia", "province": "Heredia"
         },
         {
-            "name": "Barva"
+            "name": "Barva", "province": "Heredia"
         },
         {
-            "name": "Santo Domingo"
+            "name": "Santo Domingo", "province": "Heredia"
         },
         {
-            "name": "Santa B\\u00e1rbara"
+            "name": "Santa B\\u00e1rbara", "province": "Heredia"
         },
         {
-            "name": "San Rafael"
+            "name": "San Rafael", "province": "Heredia"
         },
         {
-            "name": "San Isidro"
+            "name": "San Isidro", "province": "Heredia"
         },
         {
-            "name": "Bel\\u00e9n"
+            "name": "Bel\\u00e9n", "province": "Heredia"
         },
         {
-            "name": "Flores"
+            "name": "Flores", "province": "Heredia"
         },
         {
-            "name": "San Pablo"
+            "name": "San Pablo", "province": "Heredia"
         },
         {
-            "name": "Sarapiqu\\u00ed"
+            "name": "Sarapiqu\\u00ed", "province": "Heredia"
         },
         {
-            "name": "Liberia"
+            "name": "Liberia", "province": "Guanacaste"
         },
         {
-            "name": "Nicoya"
+            "name": "Nicoya", "province": "Guanacaste"
         },
         {
-            "name": "Santa Cruz"
+            "name": "Santa Cruz", "province": "Guanacaste"
         },
         {
-            "name": "Bagaces"
+            "name": "Bagaces", "province": "Guanacaste"
         },
         {
-            "name": "Carrillo"
+            "name": "Carrillo", "province": "Guanacaste"
         },
         {
-            "name": "Ca\\u00f1as"
+            "name": "Ca\\u00f1as", "province": "Guanacaste"
         },
         {
-            "name": "Abangares"
+            "name": "Abangares", "province": "Guanacaste"
         },
         {
-            "name": "Tilar\\u00e1n"
+            "name": "Tilar\\u00e1n", "province": "Guanacaste"
         },
         {
-            "name": "Nandayure"
+            "name": "Nandayure", "province": "Guanacaste"
         },
         {
-            "name": "La Cruz"
+            "name": "La Cruz", "province": "Guanacaste"
         },
         {
-            "name": "Hojancha"
+            "name": "Hojancha", "province": "Guanacaste"
         },
         {
-            "name": "Puntarenas"
+            "name": "Puntarenas", "province": "Puntarenas"
         },
         {
-            "name": "Esparza"
+            "name": "Esparza", "province": "Puntarenas"
         },
         {
-            "name": "Buenos Aires"
+            "name": "Buenos Aires", "province": "Puntarenas"
         },
         {
-            "name": "Montes de Oro"
+            "name": "Montes de Oro", "province": "Puntarenas"
         },
         {
-            "name": "Osa"
+            "name": "Osa", "province": "Puntarenas"
         },
         {
-            "name": "Aguirre"
+            "name": "Aguirre", "province": "Puntarenas"
         },
         {
-            "name": "Golfito"
+            "name": "Golfito", "province": "Puntarenas"
         },
         {
-            "name": "Coto Brus"
+            "name": "Coto Brus", "province": "Puntarenas"
         },
         {
-            "name": "Parrita"
+            "name": "Parrita", "province": "Puntarenas"
         },
         {
-            "name": "Corredores"
+            "name": "Corredores", "province": "Puntarenas"
         },
         {
-            "name": "Garabito"
+            "name": "Garabito", "province": "Puntarenas"
         },
         {
-            "name": "Lim\\u00f3n"
+            "name": "Lim\\u00f3n", "province": "Lim\\u00f3n"
         },
         {
-            "name": "Pococ\\u00ed"
+            "name": "Pococ\\u00ed", "province": "Lim\\u00f3n"
         },
         {
-            "name": "Siquirres"
+            "name": "Siquirres", "province": "Lim\\u00f3n"
         },
         {
-            "name": "Talamanca"
+            "name": "Talamanca", "province": "Lim\\u00f3n"
         },
         {
-            "name": "Matina"
+            "name": "Matina", "province": "Lim\\u00f3n"
         },
         {
-            "name": "Gu\\u00e1cimo"
+            "name": "Gu\\u00e1cimo", "province": "Lim\\u00f3n"
         }
     ],
     "matrix": [
