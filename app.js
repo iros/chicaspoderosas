@@ -16,8 +16,9 @@ $(function() {
 //     ]
 // };
 
-var width = 1024,
-    height = 1024,
+
+var width = 800,
+    height = 800,
     outerRadius = Math.min(width, height) / 2 - 10,
     innerRadius = outerRadius - 24;
 
@@ -46,8 +47,11 @@ var svg = d3.select("body").append("svg")
 svg.append("circle")
     .attr("r", outerRadius);
 
-// the rest in ajax req when data!
-d3.json("data/chord.json", function(data) {
+function render(data) {
+
+  // resent content
+  $('#chart').empty();
+  $('#metadata').empty();
 
   // make a scale for province colors
   var provinces = [];
@@ -57,9 +61,30 @@ d3.json("data/chord.json", function(data) {
     }
   }
 
-  var colorScale = d3.scale.ordinal()
-    .domain(provinces)
-    .range(d3.scale.category10().range());
+  var colorScales = {
+    gam : {
+      scale : d3.scale.ordinal()
+        .domain(['GAM', 'noGAM'])
+        .range(['red', 'blue']),
+      f: function(d, i) {
+        return data.cantons[i].category;
+      }
+    },
+    province : {
+      scale : d3.scale.ordinal()
+        .domain(provinces)
+        .range(d3.scale.category10().range()),
+      f : function(d, i) {
+        return data.cantons[i].province;
+      }
+    }
+  };
+
+  var currentScale = 'gam';
+  
+  var getColor = function(d, i) {
+    return colorScales[currentScale].scale(colorScales[currentScale].f(d,i));
+  };
 
   // Compute the chord layout.
   layout.matrix(data.matrix);
@@ -75,7 +100,7 @@ d3.json("data/chord.json", function(data) {
   var groupPath = group.append("path")
     .attr("id", function(d, i) { return "group" + i; })
     .attr("d", arc)
-    .style("fill", function(d, i) { return colorScale(data.cantons[i].province); });
+    .style("fill", function(d, i) { return getColor(d, i); });
 
   // Add a text label.
   var groupText = group.append("text")
@@ -95,7 +120,7 @@ d3.json("data/chord.json", function(data) {
     .data(layout.chords)
     .enter().append("path")
         .attr("class", "chord")
-        .style("fill", function(d) { return colorScale(data.cantons[d.source.index].province); })
+        .style("fill", function(d) { return getColor(d, d.source.index); })
         .attr("d", path);
 
   // Add an elaborate mouseover title for each chord.
@@ -125,6 +150,7 @@ d3.json("data/chord.json", function(data) {
     });
 
     citydata.total = total;
+    citydata.local = data.cantons[d.index].local;
 
     // also show city metadata
     var content = metadataTemplate({
@@ -134,6 +160,11 @@ d3.json("data/chord.json", function(data) {
 
     metadata.html(content);
   }
+}
 
+  // the rest in ajax req when data!
+  d3.json("data/chord.json", function(data) {
+    render(data);
   });
+
 }());

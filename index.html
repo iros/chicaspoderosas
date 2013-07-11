@@ -24,9 +24,10 @@
 
     <script type="text/template" id="cityMetadata">
       <h2>From: <%= canton %></h2>
+      <h3><%= d3.format('0%')(citydata.total / (citydata.local + citydata.total)) %>Commute out of their canton</h3>
       Traveling to:
       <ul>
-      <% for(var i = 0; i < citydata.length; i++) { %>
+      <% for(var i = 0; i < Math.min(citydata.length, 25); i++) { %>
         <% if (citydata[i].value !== 0) { %>
           <li><%= citydata[i].value %> (<%= d3.format('0%')(citydata[i].value / citydata.total) %>) travel to: <%= citydata[i].name %></li>
         <% } %>
