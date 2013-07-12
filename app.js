@@ -50,14 +50,20 @@ var svg = d3.select("#chord").append("svg")
 svg.append("circle")
     .attr("r", outerRadius);
 
-d3.select("#chord svg").append("text")
-  .attr("id", "location")
-  .attr("x", width/2)
-  .attr("y", height/2);
+var locationDetails = d3.select("#chord svg").append("g")
+  .attr("id", "locationData")
+  .attr("transform", "translate("+(width/2)+","+(height/2)+")");
+
+locationDetails.append("text")
+  .attr("id", "location");
+
+locationDetails.append("text")
+  .attr("id", "locationSubtext")
+  .attr("y", 50);
 
 var currentScale = "province", colorScales, getColor, fetchedData;
 
-var provinces = [], migrants = [];
+var provinces = [], migrants = [], residents = [];
 
 function initControls() {
   $("#controls li a").click(function(e) {
@@ -182,6 +188,7 @@ function render(data) {
     });
 
     $("#location").show().text(data.cantons[d.index].name);
+    $("#locationSubtext").show().text(colorScales[currentScale].subtext(d, i));
 
     // create city/data blend
     var citydata = [];
@@ -208,6 +215,7 @@ function render(data) {
 
   function mouseout() {
     $("#location").hide();
+    $("#locationSubtext").hide();
   }
 }
 
@@ -222,6 +230,13 @@ function render(data) {
       if (migrants.indexOf(data.cantons[i].migrants) === -1) {
         migrants.push(+data.cantons[i].migrants);
       }
+      if (residents.indexOf(data.cantons[i]["19A"]) === -1) {
+        if (!isNaN(+data.cantons[i]["19A"])) {
+          residents.push(+data.cantons[i]["19A"]);
+        } else {
+          residents.push(0);
+        }
+      }
 
       // add up total for the canton
       var total = 0;
@@ -233,18 +248,33 @@ function render(data) {
     }
 
     migrants.sort();
+    residents.sort();
 
     var commutingDomain = d3.extent(_.map(data.cantons, function(d) {
       return d.total / (d.local + d.total);
     }));
 
     colorScales = {
+      residency : {
+        scale : d3.scale.quantize()
+          .domain(residents)
+          .range(["#fee6ce","#fdd0a2","#fdae6b","#fd8d3c","#f16913","#d94801","#a63603","#7f2704"] ),
+        f : function(d, i) {
+          return data.cantons[i]["19A"];
+        },
+        subtext: function(d, i) {
+          return d3.format("0%")(data.cantons[d.index]["19A"]) + " are non long-term residents";
+        }
+      },
       migrants : {
         scale : d3.scale.quantize()
           .domain(migrants)
           .range(["#f7fcb9","#d9f0a3","#addd8e","#78c679","#41ab5d","#238443","#006837","#004529"]),
         f : function(d, i) {
           return data.cantons[i].migrants;
+        },
+        subtext: function(d, i) {
+          return d3.format("0%")(data.cantons[d.index]["migrants"]) + " are migrants";
         }
       },
       commuting : {
@@ -253,6 +283,10 @@ function render(data) {
           .range(["#fcfbfd","#efedf5","#dadaeb","#bcbddc","#9e9ac8","#807dba","#6a51a3","#54278f","#3f007d"]),
         f : function(d, i) {
           return data.cantons[i].total / (data.cantons[i].total + data.cantons[i].local);
+        },
+        subtext: function(d, i) {
+          var dt = data.cantons[d.index];
+          return d3.format("0%")(dt.total / (dt.total+dt.local)) + " commute outside their canton";
         }
       },
       gam : {
@@ -261,6 +295,9 @@ function render(data) {
           .range(["#bbb", "#222"]),
         f : function(d, i) {
           return data.cantons[i].category;
+        },
+        subtext: function(d, i) {
+          return data.cantons[d.index].category === "GAM" ? "An urban canton" : "A rural canton";
         }
       },
       province : {
@@ -269,6 +306,9 @@ function render(data) {
           .range(["#377eb8","#4daf4a","#984ea3","#ff7f00","#f781bf","#a65628"]),
         f : function(d, i) {
           return data.cantons[i].province;
+        },
+        subtext: function(d, i) {
+          return data.cantons[d.index].province + " province";
         }
       }
     };

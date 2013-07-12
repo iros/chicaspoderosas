@@ -13,6 +13,13 @@
   padding: 15px;
   background-color: white;
 }
+#locationSubtext {
+  font-size: 30px;
+  text-anchor: middle;
+  text-shadow: 1px 1px 15px #fff;
+  padding: 15px;
+  background-color: white;
+}
 #metadata {
   float:right;
   display: inline-block;
@@ -22,7 +29,7 @@
   pointer-events: all;
 }
 .group path {
-  fill-opacity: .5;
+  fill-opacity: .9;
 }
 
 path.chord {}

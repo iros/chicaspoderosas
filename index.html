@@ -28,6 +28,9 @@
           <li>
             <a href="#" id="migrants">Migrants</a>
           </li>
+          <li>
+            <a href="#" id="residency">Residency</a>
+          </li>
         </ul>
         <div id="legend"></div>
       </div>
@@ -40,8 +43,6 @@
     </div>
 
     <script type="text/template" id="cityMetadata">
-      <h3><%= d3.format('0%')(citydata.total / (citydata.local + citydata.total)) %>Commute out of their canton</h3>
-      Migrants: <%= canton.migrants %><br>
       Traveling to:
       <ul>
       <% for(var i = 0; i < Math.min(citydata.length, 25); i++) { %>
