@@ -1,6 +1,7 @@
 {
     "cantons": [
         {
+            "19A": 0.08123129690960723,
             "category": "GAM",
             "local": 79348,
             "migrants": 0.05137925527852417,
@@ -8,6 +9,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.09244545116707073,
             "category": "GAM",
             "local": 14250,
             "migrants": 0.059795784742253444,
@@ -15,6 +17,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.08928511450931093,
             "category": "GAM",
             "local": 36435,
             "migrants": 0.03411528182293641,
@@ -22,6 +25,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.07408192946309539,
             "category": "noGAM",
             "local": 8257,
             "migrants": 0.017906920373288088,
@@ -29,6 +33,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.07598280098280098,
             "category": "noGAM",
             "local": 5066,
             "migrants": 0.09269041769041769,
@@ -36,6 +41,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.10409037518137221,
             "category": "GAM",
             "local": 9290,
             "migrants": 0.02193740067712292,
@@ -43,6 +49,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.12044572906366471,
             "category": "GAM",
             "local": 4939,
             "migrants": 0.024948657488400396,
@@ -50,6 +57,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.10638316360223836,
             "category": "GAM",
             "local": 20263,
             "migrants": 0.03931041673907754,
@@ -57,6 +65,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.13301304887730797,
             "category": "GAM",
             "local": 12746,
             "migrants": 0.04500946603424058,
@@ -64,6 +73,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.09694212852595904,
             "category": "GAM",
             "local": 9851,
             "migrants": 0.030153473448191435,
@@ -71,6 +81,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.10911615911119929,
             "category": "GAM",
             "local": 10436,
             "migrants": 0.029428297457262838,
@@ -78,6 +89,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.06690088574397546,
             "category": "GAM",
             "local": 4682,
             "migrants": 0.016428324014053145,
@@ -85,6 +97,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.1018167237284476,
             "category": "GAM",
             "local": 11259,
             "migrants": 0.0482557601554548,
@@ -92,6 +105,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.15214603208067604,
             "category": "GAM",
             "local": 9499,
             "migrants": 0.05015899787417207,
@@ -99,6 +113,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.17597492469266465,
             "category": "GAM",
             "local": 11016,
             "migrants": 0.05973703492632093,
@@ -106,6 +121,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.11357039187227866,
             "category": "noGAM",
             "local": 1477,
             "migrants": 0.01832365747460087,
@@ -113,6 +129,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.08448474381116867,
             "category": "noGAM",
             "local": 2122,
             "migrants": 0.07656879677605066,
@@ -120,6 +137,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.13498757783026102,
             "category": "GAM",
             "local": 12063,
             "migrants": 0.052081096831579916,
@@ -127,6 +145,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.048612246718301694,
             "category": "noGAM",
             "local": 41365,
             "migrants": 0.07928107392926695,
@@ -134,6 +153,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.05401639344262295,
             "category": "noGAM",
             "local": 3411,
             "migrants": 0.07270491803278689,
@@ -141,6 +161,7 @@
             "province": "San Jose"
         },
         {
+            "19A": 0.08736381500156969,
             "category": "GAM",
             "local": 68133,
             "migrants": 0.03226969183723301,
@@ -148,6 +169,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.08844922175607577,
             "category": "GAM",
             "local": 22952,
             "migrants": 0.026375890574187624,
@@ -155,6 +177,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.07399412208379932,
             "category": "GAM",
             "local": 22001,
             "migrants": 0.03136622538947697,
@@ -162,6 +185,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.11049543676662321,
             "category": "noGAM",
             "local": 1369,
             "migrants": 0.02102346805736636,
@@ -169,6 +193,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.0699861191958089,
             "category": "GAM",
             "local": 6528,
             "migrants": 0.024672010030000448,
@@ -176,6 +201,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.0725540233652518,
             "category": "noGAM",
             "local": 9834,
             "migrants": 0.036874019619319645,
@@ -183,6 +209,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.07022698467565387,
             "category": "GAM",
             "local": 9048,
             "migrants": 0.029813342550985136,
@@ -190,6 +217,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.09466077605397445,
             "category": "GAM",
             "local": 6183,
             "migrants": 0.019075995753279222,
@@ -197,6 +225,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.12713239270439014,
             "category": "noGAM",
             "local": 4893,
             "migrants": 0.02059879061993019,
@@ -204,6 +233,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.07345639806866221,
             "category": "noGAM",
             "local": 56136,
             "migrants": 0.02457197101627432,
@@ -211,6 +241,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.06423596886521918,
             "category": "noGAM",
             "local": 4224,
             "migrants": 0.02859483818107333,
@@ -218,6 +249,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.07564279789881118,
             "category": "noGAM",
             "local": 4612,
             "migrants": 0.05158971523361902,
@@ -225,6 +257,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.09860532841899301,
             "category": "noGAM",
             "local": 11727,
             "migrants": 0.0189520624303233,
@@ -232,6 +265,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.09635559300610912,
             "category": "noGAM",
             "local": 6408,
             "migrants": 0.020728881398778175,
@@ -239,6 +273,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.12935259221047202,
             "category": "noGAM",
             "local": 4276,
             "migrants": 0.01579829765282435,
@@ -246,6 +281,7 @@
             "province": "Alajuela"
         },
         {
+            "19A": 0.08090035024138258,
             "category": "GAM",
             "local": 36674,
             "migrants": 0.023840755115011696,
@@ -253,6 +289,7 @@
             "province": "Cartago"
         },
         {
+            "19A": 0.05780787281575256,
             "category": "GAM",
             "local": 11853,
             "migrants": 0.014374036679770708,
@@ -260,6 +297,7 @@
             "province": "Cartago"
         },
         {
+            "19A": 0.13166128431875573,
             "category": "GAM",
             "local": 16377,
             "migrants": 0.030483204056378835,
@@ -267,6 +305,7 @@
             "province": "Cartago"
         },
         {
+            "19A": 0.06319449178539778,
             "category": "noGAM",
             "local": 3302,
             "migrants": 0.01581566568954939,
@@ -274,6 +313,7 @@
             "province": "Cartago"
         },
         {
+            "19A": 0.04984486324982763,
             "category": "noGAM",
             "local": 19573,
             "migrants": 0.017409790852677545,
@@ -281,6 +321,7 @@
             "province": "Cartago"
         },
         {
+            "19A": 0.07217719396310789,
             "category": "noGAM",
             "local": 3831,
             "migrants": 0.011808272778088318,
@@ -288,6 +329,7 @@
             "province": "Cartago"
         },
         {
+            "19A": 0.09124095617179426,
             "category": "GAM",
             "local": 8975,
             "migrants": 0.015063884063070394,
@@ -295,6 +337,7 @@
             "province": "Cartago"
         },
         {
+            "19A": 0.1061182494676142,
             "category": "GAM",
             "local": 9358,
             "migrants": 0.02036226162275979,
@@ -302,6 +345,7 @@
             "province": "Cartago"
         },
         {
+            "19A": 0.1322725213564587,
             "category": "GAM",
             "local": 27587,
             "migrants": 0.03531096298213823,
@@ -309,6 +353,7 @@
             "province": "Heredia"
         },
         {
+            "19A": 0.13765371372356125,
             "category": "GAM",
             "local": 6572,
             "migrants": 0.027422528283325136,
@@ -316,6 +361,7 @@
             "province": "Heredia"
         },
         {
+            "19A": 0.1300409263326013,
             "category": "GAM",
             "local": 7306,
             "migrants": 0.03329007785985227,
@@ -323,6 +369,7 @@
             "province": "Heredia"
         },
         {
+            "19A": 0.13663328090941698,
             "category": "GAM",
             "local": 5677,
             "migrants": 0.024473691471456557,
@@ -330,6 +377,7 @@
             "province": "Heredia"
         },
         {
+            "19A": 0.14474056347220712,
             "category": "GAM",
             "local": 7425,
             "migrants": 0.02660720113129555,
@@ -337,6 +385,7 @@
             "province": "Heredia"
         },
         {
+            "19A": 0.14375030291280957,
             "category": "noGAM",
             "local": 3558,
             "migrants": 0.02714098773808947,
@@ -344,6 +393,7 @@
             "province": "Heredia"
         },
         {
+            "19A": 0.12185087597651736,
             "category": "GAM",
             "local": 5164,
             "migrants": 0.049230342532242406,
@@ -351,6 +401,7 @@
             "province": "Heredia"
         },
         {
+            "19A": 0.1717822029245895,
             "category": "GAM",
             "local": 3342,
             "migrants": 0.030393771522683036,
@@ -358,6 +409,7 @@
             "province": "Heredia"
         },
         {
+            "19A": 0.17780347656391168,
             "category": "GAM",
             "local": 3296,
             "migrants": 0.03411513859275053,
@@ -365,6 +417,7 @@
             "province": "Heredia"
         },
         {
+            "19A": 0.11893887693142247,
             "category": "noGAM",
             "local": 17523,
             "migrants": 0.024550720072794723,
@@ -372,6 +425,7 @@
             "province": "Heredia"
         },
         {
+            "19A": 0.09171733849842031,
             "category": "noGAM",
             "local": 18233,
             "migrants": 0.0213218600663629,
@@ -379,6 +433,7 @@
             "province": "Guanacaste"
         },
         {
+            "19A": 0.07728480078701426,
             "category": "noGAM",
             "local": 13556,
             "migrants": 0.017825873093949826,
@@ -386,6 +441,7 @@
             "province": "Guanacaste"
         },
         {
+            "19A": 0.08135525551684088,
             "category": "noGAM",
             "local": 15415,
             "migrants": 0.02586019163763066,
@@ -393,6 +449,7 @@
             "province": "Guanacaste"
         },
         {
+            "19A": 0.12044430794430794,
             "category": "noGAM",
             "local": 4912,
             "migrants": 0.01760851760851761,
@@ -400,6 +457,7 @@
             "province": "Guanacaste"
         },
         {
+            "19A": 0.07267927374602662,
             "category": "noGAM",
             "local": 9209,
             "migrants": 0.0283928667636442,
@@ -414,6 +472,7 @@
             "province": "Guanacaste"
         },
         {
+            "19A": 0.10194578413437552,
             "category": "noGAM",
             "local": 4754,
             "migrants": 0.013747990465103388,
@@ -421,6 +480,7 @@
             "province": "Guanacaste"
         },
         {
+            "19A": 0.09022403258655805,
             "category": "noGAM",
             "local": 5929,
             "migrants": 0.024389002036659876,
@@ -428,6 +488,7 @@
             "province": "Guanacaste"
         },
         {
+            "19A": 0.08767197194496898,
             "category": "noGAM",
             "local": 2922,
             "migrants": 0.020142073554536462,
@@ -435,6 +496,7 @@
             "province": "Guanacaste"
         },
         {
+            "19A": 0.055419425473124444,
             "category": "noGAM",
             "local": 4798,
             "migrants": 0.020489025598248268,
@@ -442,6 +504,7 @@
             "province": "Guanacaste"
         },
         {
+            "19A": 0.08670279283034597,
             "category": "noGAM",
             "local": 1873,
             "migrants": 0.03793247186327636,
@@ -449,6 +512,7 @@
             "province": "Guanacaste"
         },
         {
+            "19A": 0.0556168980777089,
             "category": "noGAM",
             "local": 33535,
             "migrants": 0.016275571862040185,
@@ -456,6 +520,7 @@
             "province": "Puntarenas"
         },
         {
+            "19A": 0.10902806870548806,
             "category": "noGAM",
             "local": 6421,
             "migrants": 0.019340874179583856,
@@ -463,6 +528,7 @@
             "province": "Puntarenas"
         },
         {
+            "19A": 0.08714967730527805,
             "category": "noGAM",
             "local": 12255,
             "migrants": 0.050216603306515784,
@@ -470,6 +536,7 @@
             "province": "Puntarenas"
         },
         {
+            "19A": 0.09057915057915059,
             "category": "noGAM",
             "local": 3314,
             "migrants": 0.015598455598455598,
@@ -477,6 +544,7 @@
             "province": "Puntarenas"
         },
         {
+            "19A": 0.11500696497129073,
             "category": "noGAM",
             "local": 9307,
             "migrants": 0.02456426460095811,
@@ -484,6 +552,7 @@
             "province": "Puntarenas"
         },
         {
+            "19A": 0.10133651018204833,
             "category": "noGAM",
             "local": 9633,
             "migrants": 0.024608167975875804,
@@ -491,6 +560,7 @@
             "province": "Puntarenas"
         },
         {
+            "19A": 0.1037037037037037,
             "category": "noGAM",
             "local": 11736,
             "migrants": 0.024035759897828864,
@@ -498,6 +568,7 @@
             "province": "Puntarenas"
         },
         {
+            "19A": 0.06779705094530986,
             "category": "noGAM",
             "local": 10702,
             "migrants": 0.06641874496138142,
@@ -505,6 +576,7 @@
             "province": "Puntarenas"
         },
         {
+            "19A": 0.12075705864101768,
             "category": "noGAM",
             "local": 4916,
             "migrants": 0.022525597269624574,
@@ -512,6 +584,7 @@
             "province": "Puntarenas"
         },
         {
+            "19A": 0.08233128541034161,
             "category": "noGAM",
             "local": 12763,
             "migrants": 0.024025244435944636,
@@ -519,6 +592,7 @@
             "province": "Puntarenas"
         },
         {
+            "19A": 0.12449939056242382,
             "category": "noGAM",
             "local": 6591,
             "migrants": 0.03261942074409426,
@@ -526,6 +600,7 @@
             "province": "Puntarenas"
         },
         {
+            "19A": 0.04851983265370969,
             "category": "noGAM",
             "local": 25780,
             "migrants": 0.02999523380818726,
@@ -533,6 +608,7 @@
             "province": "Limon"
         },
         {
+            "19A": 0.1028246614058208,
             "category": "noGAM",
             "local": 38722,
             "migrants": 0.02230831520617329,
@@ -540,6 +616,7 @@
             "province": "Limon"
         },
         {
+            "19A": 0.09953157468390096,
             "category": "noGAM",
             "local": 16447,
             "migrants": 0.0223294473990068,
@@ -547,6 +624,7 @@
             "province": "Limon"
         },
         {
+            "19A": 0.05812060432404272,
             "category": "noGAM",
             "local": 9091,
             "migrants": 0.027741599374837198,
@@ -554,6 +632,7 @@
             "province": "Limon"
         },
         {
+            "19A": 0.0820762970228785,
             "category": "noGAM",
             "local": 10525,
             "migrants": 0.01871636488958405,
@@ -561,6 +640,7 @@
             "province": "Limon"
         },
         {
+            "19A": 0.12644792322977755,
             "category": "noGAM",
             "local": 10842,
             "migrants": 0.022779043280182234,
