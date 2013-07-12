@@ -7,7 +7,6 @@ $(function() {
 //         { name : "c" },
 //         { name : "d" }
 //     ],
-    
 //     matrix : [
 //         [ 0, 1, 1, 1 ],
 //         [ 1, 0, 1, 1 ],
@@ -16,6 +15,10 @@ $(function() {
 //     ]
 // };
 
+
+function isNumber(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n);
+}
 
 var width = 800,
     height = 800,
@@ -37,7 +40,7 @@ var layout = d3.layout.chord()
 var path = d3.svg.chord()
     .radius(innerRadius);
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#chord").append("svg")
     .attr("width", width)
     .attr("height", height)
   .append("g")
@@ -47,44 +50,93 @@ var svg = d3.select("body").append("svg")
 svg.append("circle")
     .attr("r", outerRadius);
 
+d3.select("#chord svg").append("text")
+  .attr("id", "location")
+  .attr("x", width/2)
+  .attr("y", height/2);
+
+var currentScale = "gam", colorScales, getColor, fetchedData;
+
+var provinces = [], eduLevels = [];
+
+function initControls() {
+  $("#controls li a").click(function(e) {
+    e.preventDefault();
+
+    var $el = $(e.target);
+    var coloring = $el.attr("id");
+
+    // if it"s a different scale
+    if (currentScale !== coloring) {
+
+      // remove all selected
+      $("#controls li.selected").removeClass("selected");
+
+      // mark current as selected
+      $el.parent().addClass("selected");
+
+      currentScale = coloring;
+
+      var scale = updateColor();
+      makeLegend(scale);
+    }
+
+    return false;
+  });
+}
+
+
+function updateColor() {
+
+  var group = d3.selectAll("path.group");
+  var chordSelection = d3.selectAll("path.chord");
+
+  group.style("fill", function(d, i) { return getColor(d, i); });
+  chordSelection.style("fill", function(d) { return getColor(d, d.source.index); });
+
+  return colorScales[currentScale].scale;
+}
+
+function makeLegend(scale) {
+  var range = scale.range(), domain = scale.domain();
+
+  if (isNumber(domain[0])) {
+    domain = d3.range(domain[0], domain[1], (domain[1]-domain[0])/range.length);
+  }
+
+  var legend = $("<ul>");
+
+  for(var i = 0; i < range.length; i++) {
+    var legendItem = $("<li>");
+
+    $("<div>", {
+      "class": "legendColor"
+    }).css({
+      "background-color" : range[i]
+    }).appendTo(legendItem);
+
+    $("<div>", {
+      "class":"legendItem",
+      text: isNumber(domain[i]) ?
+        (domain[i] <= 1 ?
+          d3.format("0%")(domain[i]) :
+          d3.format(",0")) :
+        domain[i]
+    }).appendTo(legendItem);
+
+    legend.append(legendItem);
+  }
+
+  $("#legend").empty().append(legend);
+}
+
 function render(data) {
 
   // resent content
-  $('#chart').empty();
-  $('#metadata').empty();
+  // $("#chord").empty();
+  $("#metadata").empty();
 
-  // make a scale for province colors
-  var provinces = [];
-  for( var i = 0; i < data.cantons.length; i ++ ){
-    if (provinces.indexOf(data.cantons[i].province) === -1) {
-      provinces.push(data.cantons[i].province);
-    }
-  }
-
-  var colorScales = {
-    gam : {
-      scale : d3.scale.ordinal()
-        .domain(['GAM', 'noGAM'])
-        .range(['red', 'blue']),
-      f: function(d, i) {
-        return data.cantons[i].category;
-      }
-    },
-    province : {
-      scale : d3.scale.ordinal()
-        .domain(provinces)
-        .range(d3.scale.category10().range()),
-      f : function(d, i) {
-        return data.cantons[i].province;
-      }
-    }
-  };
-
-  var currentScale = 'gam';
-  
-  var getColor = function(d, i) {
-    return colorScales[currentScale].scale(colorScales[currentScale].f(d,i));
-  };
+  fetchedData = data;
 
   // Compute the chord layout.
   layout.matrix(data.matrix);
@@ -94,13 +146,15 @@ function render(data) {
     .data(layout.groups)
     .enter().append("g")
       .attr("class", "group")
-      .on("mouseover", mouseover);
+      .on("mouseover", mouseover)
+      .on("mouseout", mouseout);
 
   // Add the group arc.
   var groupPath = group.append("path")
+    .classed("group", true)
     .attr("id", function(d, i) { return "group" + i; })
-    .attr("d", arc)
-    .style("fill", function(d, i) { return getColor(d, i); });
+    .attr("d", arc);
+    //.style("fill", function(d, i) { return getColor(d, i); });
 
   // Add a text label.
   var groupText = group.append("text")
@@ -116,11 +170,11 @@ function render(data) {
         .remove();
 
   // Add the chords.
-  var chord = svg.selectAll(".chord")
+  var chordSelection = svg.selectAll(".chord")
     .data(layout.chords)
-    .enter().append("path")
-        .attr("class", "chord")
-        .style("fill", function(d) { return getColor(d, d.source.index); })
+    .enter().append("path");
+  var chord = chordSelection.attr("class", "chord")
+        //.style("fill", function(d) { return getColor(d, d.source.index); })
         .attr("d", path);
 
   // Add an elaborate mouseover title for each chord.
@@ -133,37 +187,111 @@ function render(data) {
           ": " + d.target.value;
     });
 
+  var scale = updateColor();
+  makeLegend(scale);
+
   function mouseover(d, i) {
     chord.classed("fade", function(p) {
       return p.source.index != i && p.target.index != i;
     });
 
+    $("#location").show().text(data.cantons[d.index].name);
+
     // create city/data blend
-    var citydata = [], total = 0;
-    for(var i = 0; i < data.matrix[d.index].length; i++) {
-      total += data.matrix[d.index][i];
-      citydata.push({ name : data.cantons[i].name, value : data.matrix[d.index][i] });
+    var citydata = [];
+
+    for(var j = 0; j < data.matrix[d.index].length; j++) {
+      citydata.push({ name : data.cantons[j].name, value : data.matrix[d.index][j] });
     }
 
     citydata = _.sortBy(citydata, function(c) {
       return -c.value;
     });
 
-    citydata.total = total;
+    citydata.total = data.cantons[d.index].total;
     citydata.local = data.cantons[d.index].local;
 
     // also show city metadata
     var content = metadataTemplate({
-      canton : data.cantons[d.index].name,
       citydata : citydata
     });
 
     metadata.html(content);
   }
+
+  function mouseout() {
+    $("#location").hide();
+  }
 }
 
   // the rest in ajax req when data!
   d3.json("data/chord.json", function(data) {
+
+    // make a scale for province colors
+    for( var i = 0; i < data.cantons.length; i ++ ){
+      if (provinces.indexOf(data.cantons[i].province) === -1) {
+        provinces.push(data.cantons[i].province);
+      }
+      if (eduLevels.indexOf(data.cantons[i].edu_yrs) === -1) {
+        eduLevels.push(+data.cantons[i].edu_yrs);
+      }
+
+      // add up total for the canton
+      var total = 0;
+      for(var j = 0; j < data.matrix[i].length; j++) {
+        total += data.matrix[i][j];
+      }
+
+      data.cantons[i].total = total;
+    }
+
+    eduLevels.sort();
+
+    var commutingDomain = d3.extent(_.map(data.cantons, function(d) {
+      return d.total / (d.local + d.total);
+    }));
+
+    colorScales = {
+      education : {
+        scale : d3.scale.quantize()
+          .domain(eduLevels)
+          .range(["#ffffe5","#f7fcb9","#d9f0a3","#addd8e","#78c679","#41ab5d","#238443","#006837","#004529"]),
+        f : function(d, i) {
+          return data.cantons[i].edu_yrs;
+        }
+      },
+      commuting : {
+        scale : d3.scale.quantize()
+          .domain(commutingDomain)
+          .range(["#fcfbfd","#efedf5","#dadaeb","#bcbddc","#9e9ac8","#807dba","#6a51a3","#54278f","#3f007d"]),
+        f : function(d, i) {
+          return data.cantons[i].total / (data.cantons[i].total + data.cantons[i].local);
+        }
+      },
+      gam : {
+        scale : d3.scale.ordinal()
+          .domain(["noGAM", "GAM"])
+          .range(["#bbb", "#222"]),
+        f : function(d, i) {
+          return data.cantons[i].category;
+        }
+      },
+      province : {
+        scale : d3.scale.ordinal()
+          .domain(provinces)
+          .range(["#377eb8","#4daf4a","#984ea3","#ff7f00","#f781bf","#a65628"]),
+        f : function(d, i) {
+          return data.cantons[i].province;
+        }
+      }
+    };
+
+    getColor = function(d, i) {
+      return colorScales[currentScale].scale(colorScales[currentScale].f(d,i));
+    };
+
+    initControls();
+
     render(data);
   });
 

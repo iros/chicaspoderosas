@@ -1,6 +1,17 @@
+#content {
+  height: 800px;
+  position:relative;
+}
 #chord {
   float:left;
   display:inline-block;
+}
+#location {
+  font-size: 50px;
+  text-anchor: middle;
+  text-shadow: 1px 1px 15px #fff;
+  padding: 15px;
+  background-color: white;
 }
 #metadata {
   float:right;
@@ -10,7 +21,6 @@
   fill: none;
   pointer-events: all;
 }
-
 .group path {
   fill-opacity: .5;
 }
@@ -19,4 +29,31 @@ path.chord {}
 
 #circle:hover path.fade {
   display: none;
+}
+
+#legend {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#legend ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  color: #222;
+}
+#legend li {
+  display: table-row;
+  margin-bottom: 5px;
+}
+#legend .legendColor {
+  width: 20px;
+  height: 20px;
+  float:left;
+  display: inline-block;
+  margin-right: 3px;
+}
+#legend .legendItem {
+  float:left;
+  display: inline-block;
 }

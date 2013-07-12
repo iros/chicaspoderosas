@@ -16,6 +16,17 @@
       <div id="chord">
 
       </div>
+      <div id="controls">
+        Color By:
+        <ul>
+          <li>
+            <a href="#" id="gam">GAM/noGAM</a>
+            <a href="#" id="province">Provinces</a>
+            <a href="#" id="commuting">Commuting %</a>
+          </li>
+        </ul>
+        <div id="legend"></div>
+      </div>
 
       <div id="metadata">
         
@@ -23,7 +34,6 @@
     </div>
 
     <script type="text/template" id="cityMetadata">
-      <h2>From: <%= canton %></h2>
       <h3><%= d3.format('0%')(citydata.total / (citydata.local + citydata.total)) %>Commute out of their canton</h3>
       Traveling to:
       <ul>
