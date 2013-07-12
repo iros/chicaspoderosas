@@ -55,9 +55,9 @@ d3.select("#chord svg").append("text")
   .attr("x", width/2)
   .attr("y", height/2);
 
-var currentScale = "gam", colorScales, getColor, fetchedData;
+var currentScale = "province", colorScales, getColor, fetchedData;
 
-var provinces = [], eduLevels = [];
+var provinces = [], migrants = [];
 
 function initControls() {
   $("#controls li a").click(function(e) {
@@ -154,20 +154,6 @@ function render(data) {
     .classed("group", true)
     .attr("id", function(d, i) { return "group" + i; })
     .attr("d", arc);
-    //.style("fill", function(d, i) { return getColor(d, i); });
-
-  // Add a text label.
-  var groupText = group.append("text")
-    .attr("x", 6)
-    .attr("dy", 15);
-
-  groupText.append("textPath")
-    .attr("xlink:href", function(d, i) { return "#group" + i; })
-    .text(function(d, i) { return data.cantons[i].name; });
-
-  // Remove the labels that don't fit. :(
-  groupText.filter(function(d, i) { return groupPath[0][i].getTotalLength() / 2 - 16 < this.getComputedTextLength(); })
-        .remove();
 
   // Add the chords.
   var chordSelection = svg.selectAll(".chord")
@@ -213,7 +199,8 @@ function render(data) {
 
     // also show city metadata
     var content = metadataTemplate({
-      citydata : citydata
+      citydata : citydata,
+      canton: data.cantons[d.index]
     });
 
     metadata.html(content);
@@ -232,8 +219,8 @@ function render(data) {
       if (provinces.indexOf(data.cantons[i].province) === -1) {
         provinces.push(data.cantons[i].province);
       }
-      if (eduLevels.indexOf(data.cantons[i].edu_yrs) === -1) {
-        eduLevels.push(+data.cantons[i].edu_yrs);
+      if (migrants.indexOf(data.cantons[i].migrants) === -1) {
+        migrants.push(+data.cantons[i].migrants);
       }
 
       // add up total for the canton
@@ -245,19 +232,19 @@ function render(data) {
       data.cantons[i].total = total;
     }
 
-    eduLevels.sort();
+    migrants.sort();
 
     var commutingDomain = d3.extent(_.map(data.cantons, function(d) {
       return d.total / (d.local + d.total);
     }));
 
     colorScales = {
-      education : {
+      migrants : {
         scale : d3.scale.quantize()
-          .domain(eduLevels)
-          .range(["#ffffe5","#f7fcb9","#d9f0a3","#addd8e","#78c679","#41ab5d","#238443","#006837","#004529"]),
+          .domain(migrants)
+          .range(["#f7fcb9","#d9f0a3","#addd8e","#78c679","#41ab5d","#238443","#006837","#004529"]),
         f : function(d, i) {
-          return data.cantons[i].edu_yrs;
+          return data.cantons[i].migrants;
         }
       },
       commuting : {

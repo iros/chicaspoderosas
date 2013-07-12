@@ -1,5 +1,5 @@
 #content {
-  height: 800px;
+  height: 850px;
   position:relative;
 }
 #chord {
@@ -29,6 +29,35 @@ path.chord {}
 
 #circle:hover path.fade {
   display: none;
+}
+
+#controls ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+#buttons li {
+  padding: 5px;
+  background-color: #377eb8;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+#buttons li.selected {
+  background-color: orange;
+}
+#buttons li:active {
+  background-color: #F5C945;
+}
+#buttons li:hover {
+  background-color: #76AEDB;
+}
+#buttons li a {
+  text-decoration: none;
+  color: white;
 }
 
 #legend {
