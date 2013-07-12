@@ -2,568 +2,568 @@
     "cantons": [
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 79348,
+            "migrants": 0.05137925527852417,
             "name": "San Jose",
             "province": "San Jose"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 14250,
+            "migrants": 0.059795784742253444,
             "name": "Escazu",
             "province": "San Jose"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 36435,
+            "migrants": 0.03411528182293641,
             "name": "Desamparados",
             "province": "San Jose"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 8257,
+            "migrants": 0.017906920373288088,
             "name": "Puriscal",
             "province": "San Jose"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 5066,
+            "migrants": 0.09269041769041769,
             "name": "Tarrazu",
             "province": "San Jose"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 9290,
+            "migrants": 0.02193740067712292,
             "name": "Aserri",
             "province": "San Jose"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 4939,
+            "migrants": 0.024948657488400396,
             "name": "Mora",
             "province": "San Jose"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 20263,
+            "migrants": 0.03931041673907754,
             "name": "Goicoechea",
             "province": "San Jose"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 12746,
+            "migrants": 0.04500946603424058,
             "name": "Santa Ana",
             "province": "San Jose"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 9851,
+            "migrants": 0.030153473448191435,
             "name": "Alajuelita",
             "province": "San Jose"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 10436,
+            "migrants": 0.029428297457262838,
             "name": "Vazquez de Coronado",
             "province": "San Jose"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 4682,
+            "migrants": 0.016428324014053145,
             "name": "Acosta",
             "province": "San Jose"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 11259,
+            "migrants": 0.0482557601554548,
             "name": "Tibas",
             "province": "San Jose"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 9499,
+            "migrants": 0.05015899787417207,
             "name": "Moravia",
             "province": "San Jose"
         },
         {
             "category": "GAM",
-            "edu_yrs": 11,
             "local": 11016,
+            "migrants": 0.05973703492632093,
             "name": "Montes de Oca",
             "province": "San Jose"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 1477,
+            "migrants": 0.01832365747460087,
             "name": "Turrubares",
             "province": "San Jose"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 2122,
+            "migrants": 0.07656879677605066,
             "name": "Dota",
             "province": "San Jose"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 12063,
+            "migrants": 0.052081096831579916,
             "name": "Curridabat",
             "province": "San Jose"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 41365,
+            "migrants": 0.07928107392926695,
             "name": "Perez Zeledon",
             "province": "San Jose"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 3411,
+            "migrants": 0.07270491803278689,
             "name": "Leon Cortes",
             "province": "San Jose"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 68133,
+            "migrants": 0.03226969183723301,
             "name": "Alajuela",
             "province": "Alajuela"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 22952,
+            "migrants": 0.026375890574187624,
             "name": "San Ramon",
             "province": "Alajuela"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 22001,
+            "migrants": 0.03136622538947697,
             "name": "Grecia",
             "province": "Alajuela"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 1369,
+            "migrants": 0.02102346805736636,
             "name": "San Mateo",
             "province": "Alajuela"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 6528,
+            "migrants": 0.024672010030000448,
             "name": "Atenas",
             "province": "Alajuela"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 9834,
+            "migrants": 0.036874019619319645,
             "name": "Naranjo",
             "province": "Alajuela"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 9048,
+            "migrants": 0.029813342550985136,
             "name": "Palmares",
             "province": "Alajuela"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 6183,
+            "migrants": 0.019075995753279222,
             "name": "Poas",
             "province": "Alajuela"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 4893,
+            "migrants": 0.02059879061993019,
             "name": "Orotina",
             "province": "Alajuela"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 56136,
+            "migrants": 0.02457197101627432,
             "name": "San Carlos",
             "province": "Alajuela"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 4224,
+            "migrants": 0.02859483818107333,
             "name": "Zarcero",
             "province": "Alajuela"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 4612,
+            "migrants": 0.05158971523361902,
             "name": "Valverde Vega",
             "province": "Alajuela"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 11727,
+            "migrants": 0.0189520624303233,
             "name": "Upala",
             "province": "Alajuela"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 0,
             "local": 6408,
+            "migrants": 0.020728881398778175,
             "name": "Los Chiles",
             "province": "Alajuela"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 4276,
+            "migrants": 0.01579829765282435,
             "name": "Guatuso",
             "province": "Alajuela"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 36674,
+            "migrants": 0.023840755115011696,
             "name": "Cartago",
             "province": "Cartago"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 11853,
+            "migrants": 0.014374036679770708,
             "name": "Paraiso",
             "province": "Cartago"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 16377,
+            "migrants": 0.030483204056378835,
             "name": "La Union",
             "province": "Cartago"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 3302,
+            "migrants": 0.01581566568954939,
             "name": "Jimenez",
             "province": "Cartago"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 19573,
+            "migrants": 0.017409790852677545,
             "name": "Turrialba",
             "province": "Cartago"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 3831,
+            "migrants": 0.011808272778088318,
             "name": "Alvarado",
             "province": "Cartago"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 8975,
+            "migrants": 0.015063884063070394,
             "name": "Oreamuno",
             "province": "Cartago"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 9358,
+            "migrants": 0.02036226162275979,
             "name": "El Guarco",
             "province": "Cartago"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 27587,
+            "migrants": 0.03531096298213823,
             "name": "Heredia",
             "province": "Heredia"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 6572,
+            "migrants": 0.027422528283325136,
             "name": "Barva",
             "province": "Heredia"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 7306,
+            "migrants": 0.03329007785985227,
             "name": "Santo Domingo",
             "province": "Heredia"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 5677,
+            "migrants": 0.024473691471456557,
             "name": "Santa Barbara",
             "province": "Heredia"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 7425,
+            "migrants": 0.02660720113129555,
             "name": "San Rafael",
             "province": "Heredia"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 3558,
+            "migrants": 0.02714098773808947,
             "name": "San Isidro",
             "province": "Heredia"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 5164,
+            "migrants": 0.049230342532242406,
             "name": "Belen",
             "province": "Heredia"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 3342,
+            "migrants": 0.030393771522683036,
             "name": "Flores",
             "province": "Heredia"
         },
         {
             "category": "GAM",
-            "edu_yrs": 6,
             "local": 3296,
+            "migrants": 0.03411513859275053,
             "name": "San Pablo",
             "province": "Heredia"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 17523,
+            "migrants": 0.024550720072794723,
             "name": "Sarapiqui",
             "province": "Heredia"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 18233,
+            "migrants": 0.0213218600663629,
             "name": "Liberia",
             "province": "Guanacaste"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 13556,
+            "migrants": 0.017825873093949826,
             "name": "Nicoya",
             "province": "Guanacaste"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 15415,
+            "migrants": 0.02586019163763066,
             "name": "Santa Cruz",
             "province": "Guanacaste"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 4912,
+            "migrants": 0.01760851760851761,
             "name": "Bagaces",
             "province": "Guanacaste"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 9209,
+            "migrants": 0.0283928667636442,
             "name": "Carrillo",
             "province": "Guanacaste"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 7660,
+            "migrants": 0.016984084576924546,
             "name": "Canas",
             "province": "Guanacaste"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 4754,
+            "migrants": 0.013747990465103388,
             "name": "Abangares",
             "province": "Guanacaste"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 5929,
+            "migrants": 0.024389002036659876,
             "name": "Tilaran",
             "province": "Guanacaste"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 2922,
+            "migrants": 0.020142073554536462,
             "name": "Nandayure",
             "province": "Guanacaste"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 4798,
+            "migrants": 0.020489025598248268,
             "name": "La Cruz",
             "province": "Guanacaste"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 1873,
+            "migrants": 0.03793247186327636,
             "name": "Hojancha",
             "province": "Guanacaste"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 33535,
+            "migrants": 0.016275571862040185,
             "name": "Puntarenas",
             "province": "Puntarenas"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 6421,
+            "migrants": 0.019340874179583856,
             "name": "Esparza",
             "province": "Puntarenas"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 12255,
+            "migrants": 0.050216603306515784,
             "name": "Buenos Aires",
             "province": "Puntarenas"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 3314,
+            "migrants": 0.015598455598455598,
             "name": "Montes de Oro",
             "province": "Puntarenas"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 9307,
+            "migrants": 0.02456426460095811,
             "name": "Osa",
             "province": "Puntarenas"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 9633,
+            "migrants": 0.024608167975875804,
             "name": "Aguirre",
             "province": "Puntarenas"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 11736,
+            "migrants": 0.024035759897828864,
             "name": "Golfito",
             "province": "Puntarenas"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 10702,
+            "migrants": 0.06641874496138142,
             "name": "Coto Brus",
             "province": "Puntarenas"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 4916,
+            "migrants": 0.022525597269624574,
             "name": "Parrita",
             "province": "Puntarenas"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 12763,
+            "migrants": 0.024025244435944636,
             "name": "Corredores",
             "province": "Puntarenas"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 6591,
+            "migrants": 0.03261942074409426,
             "name": "Garabito",
             "province": "Puntarenas"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 0,
             "local": 25780,
+            "migrants": 0.02999523380818726,
             "name": "Limon",
             "province": "Limon"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 38722,
+            "migrants": 0.02230831520617329,
             "name": "Pococi",
             "province": "Limon"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 16447,
+            "migrants": 0.0223294473990068,
             "name": "Siquirres",
             "province": "Limon"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 0,
             "local": 9091,
+            "migrants": 0.027741599374837198,
             "name": "Talamanca",
             "province": "Limon"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 10525,
+            "migrants": 0.01871636488958405,
             "name": "Matina",
             "province": "Limon"
         },
         {
             "category": "noGAM",
-            "edu_yrs": 6,
             "local": 10842,
+            "migrants": 0.022779043280182234,
             "name": "Guacimo",
             "province": "Limon"
         }
